@@ -1,16 +1,45 @@
-body {
-    background-color: #b38b6d;
-}
-.trangle {
-    background-color: white;
 
+body {
+   background-color: #cd9fa3; 
+   display: grid;
+   margin: 0;
 }
-.contact{
+.triangle {
+    background-color: #8b484d;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+ul {
+    grid-column: 3;
+    text-align: justify;
+    padding: 8px;
+}
+
+h1 {
+    color: white;
+    font-size: 46px;
+    font-family: 'Coda Caption', sans-serif;
+}
+
+footer{
     background-color: #b36d72;
+    text-align:center;
+    margin: 400px 0 0 0;
 }
+
 a {
     text-decoration: none;
-    color: black;
+    color: white;
+}
+h2 {
+    color: white;
+    font-size: 32px;
+    font-family: 'Coda Caption', sans-serif;
+}
+p, ul {
+    font-family: 'Poiret One', cursive;
+    color: white;
 }
 /* font-family: 'Coda Caption', sans-serif;
 font-family: 'Poiret One', cursive; */
