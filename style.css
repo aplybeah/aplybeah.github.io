@@ -6,14 +6,17 @@ body {
 }
 .triangle {
     background-color: #8b484d;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    width:800px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 ul {
-    grid-column: 3;
-    text-align: justify;
     padding: 8px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
 }
 
 h1 {
@@ -22,16 +25,27 @@ h1 {
     font-family: 'Coda Caption', sans-serif;
 }
 
+.triangle p {
+    display: none;
+}
+    li.mouse:hover p {
+        display: inline;
+    }
 footer{
     background-color: #b36d72;
     text-align:center;
-    margin: 400px 0 0 0;
+    margin: 0 auto;
+    width: 800px;
 }
 
 a {
     text-decoration: none;
     color: white;
 }
+    a:hover {
+        text-decoration-line: line-through;
+        color: #6db3ae;
+    }
 h2 {
     color: white;
     font-size: 32px;
