@@ -1,7 +1,16 @@
+body {
+    background-color: #b38b6d;
+}
 .trangle {
-    background-color: magenta;
+    background-color: white;
 
 }
 .contact{
-    background-color: lightgray;
+    background-color: #b36d72;
 }
+a {
+    text-decoration: none;
+    color: black;
+}
+/* font-family: 'Coda Caption', sans-serif;
+font-family: 'Poiret One', cursive; */
