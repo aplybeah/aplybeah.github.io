@@ -29,7 +29,8 @@ h1 {
     display: none;
 }
     li.mouse:hover p {
-        display: inline;
+        display: grid;
+        text-align: right;
     }
 footer{
     background-color: #b36d72;
