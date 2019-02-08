@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+.thumbnail {
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+}
+.sidebar {
+  width: 400px;
+  height: 100px;
+  background-color: gray;
+}
+.six {
+  grid-column: 4;
+  grid-row: 2;
+}
+.seven {
+  grid-column: 5;
+  grid-row: 2;
+}
