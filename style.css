@@ -1,66 +1,71 @@
-
 body {
-   background-color: #cd9fa3; 
-   display: grid;
-   margin: 0;
+  background-color: #cd9fa3;
+  display: grid;
+  margin: 0;
 }
 .triangle {
-    background-color: #8b484d;
-    width:800px;
-    height: 300px;
-    margin: 0 auto;
-    text-align: center;
+  background-color: #8b484d;
+  width: 800px;
+  height: 300px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 ul {
-    padding: 8px;
-    list-style: none;
-    display: flex;
-    text-align:center;
-    justify-content: space-evenly;
-    padding: 0 150px 100px;
-    position: fixed;
+  list-style: none;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  padding: 0 170px 100px;
+  position: fixed;
 }
 
 h1 {
-    color: white;
-    font-size: 46px;
-    font-family: 'Coda Caption', sans-serif;
+  color: white;
+  font-size: 46px;
+  font-family: "Coda Caption", sans-serif;
+}
+.mouse p {
+  opacity: 0;
+  display: block;
+  flex-wrap: wrap;
+  text-align: center;
+  width: auto;
+}
+.mouse:hover p {
+  opacity: 1;
+  display: block;
+  flex-wrap: wrap;
+  text-justify: auto;
+  text-align: justify;
+  width: auto;
 }
 
-.triangle p {
-    opacity: 0;
-}
-    li.mouse:hover p{
-        opacity:1;
-        display: flex;
-        flex-wrap:wrap;
-        text-align: right;
-    }
-footer{
-    background-color: #b36d72;
-    text-align:center;
-    margin: 0 auto;
-    width: 800px;
-    height: 140px;
+footer {
+  background-color: #b36d72;
+  text-align: center;
+  margin: 0 auto;
+  width: 800px;
+  height: 140px;
 }
 
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
-    a:hover {
-        text-decoration-line: line-through;
-        color: #6db3ae;
-    }
+a:hover {
+  text-decoration-line: line-through;
+  color: #6db3ae;
+}
 h2 {
-    color: white;
-    font-size: 32px;
-    font-family: 'Coda Caption', sans-serif;
+  color: white;
+  font-size: 32px;
+  font-family: "Coda Caption", sans-serif;
 }
-p, ul {
-    font-family: 'Poiret One', cursive;
-    color: white;
+p,
+ul {
+  font-family: "Poiret One", cursive;
+  color: white;
 }
 /* font-family: 'Coda Caption', sans-serif;
 font-family: 'Poiret One', cursive; */
