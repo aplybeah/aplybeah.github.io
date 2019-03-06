@@ -94,6 +94,12 @@ a {
   width: 400px;
   height: 200px;
 }
+.six img {
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
 .seven {
   grid-column: 7;
   width: 200px;
