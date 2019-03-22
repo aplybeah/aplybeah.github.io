@@ -1,0 +1,18 @@
+/* 
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Abril Fatface', cursive;
+*/
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #cd9fa3;
+}
+.linkRibbon {
+  display: flex;
+  justify-content: space-between;
+  background-color: #8b484d;
+  color: #cd9fa3;
+}
+.img {
+  position: absolute;
+}

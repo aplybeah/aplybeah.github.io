@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: grid;
+  background-color: #4a2d74;
+  grid-template-columns: 200px 200px 200px 200px 200px 200px 200px;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px 100px;
+  /* animation-duration: 3s; */
+}
+
+.thumbnail {
+  height: 50px;
+  width: 50px;
+  border: 2px solid #2f1557;
+  border-radius: 10px;
+  filter: drop-shadow(8px 8px 8px #1a053a);
+}
+
+h1 {
+  padding-top: 100px;
+  font-size: 66px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 700;
+  color: #8e79ad;
+  text-align: left;
+}
+.sidebar {
+  width: 600px;
+  height: 300px;
+  /* background-color: rgb(226, 226, 226); */
+  grid-column: 3;
+  grid-row: 3;
+  text-align: center;
+}
+.one {
+  justify-self: end;
+  height: 350px;
+  width: 100px;
+}
+.two {
+  margin: 10px;
+  width: 350px;
+  height: 100px;
+  grid-row: 2;
+  grid-column: 2;
+}
+.three {
+  grid-column: 2;
+  grid-row: 5;
+  justify-self: end;
+  width: 300px;
+  height: 350px;
+}
+.three img {
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.seven img {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+img:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.label:hover {
+  background-color: #2f1557;
+  color: #8e79ad;
+}
+a {
+  text-decoration: none;
+  font-size: 22px;
+  font-family: "Comfortaa", cursive;
+  color: #8e79ad;
+}
+.one {
+  grid-row: 1;
+  grid-column: 1;
+}
+.four {
+  justify-self: end;
+  align-self: end;
+  grid-row: 3;
+  grid-column: 4;
+  width: 150px;
+  height: 150px;
+}
+.five {
+  grid-column: 5;
+}
+.six {
+  grid-column: 6;
+  grid-row: 6;
+  width: 400px;
+  height: 200px;
+}
+.six img {
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.seven {
+  grid-column: 7;
+  width: 200px;
+  height: 250px;
+}
+.thumbnail {
+  animation-duration: 3s;
+}
+/* CSS - Cascading Style Sheet */
+/* Palette color codes */
+/* Palette URL: http://paletton.com/#uid=14r0u0kllllaFw0g0qFqFg0w0aF */
+
+/* Feel free to copy&paste color codes to your application */
+
+/* As hex codes */
+
+.color-primary-0 {
+  color: #4a2d74;
+}
+main Primary color .color-primary-1 {
+  color: #8e79ad;
+}
+.color-primary-2 {
+  color: #694f90;
+}
+.color-primary-3 {
+  color: #2f1557;
+}
+.color-primary-4 {
+  color: #1a053a;
+}
