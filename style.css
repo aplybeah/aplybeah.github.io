@@ -1,71 +1,45 @@
-body {
-  background-color: #cd9fa3;
-  display: grid;
+* {
   margin: 0;
 }
-.triangle {
-  background-color: #8b484d;
-  width: 800px;
-  height: 300px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-ul {
-  list-style: none;
-  display: flex;
-  text-align: center;
-  justify-content: space-evenly;
-  padding: 0 170px 100px;
-  position: fixed;
-}
-
-h1 {
-  color: white;
-  font-size: 46px;
-  font-family: "Comfortaa", cursive;
-}
-.mouse p {
-  opacity: 0;
-  display: block;
-  flex-wrap: wrap;
-  text-align: center;
-  width: auto;
-}
-.mouse:hover p {
-  opacity: 1;
-  display: block;
-  flex-wrap: wrap;
-  text-justify: auto;
-  text-align: justify;
-  width: auto;
-}
-
-footer {
-  background-color: #b36d72;
-  text-align: center;
-  margin: 0 auto;
-  width: 800px;
-  height: 140px;
-}
-
 a {
   text-decoration: none;
-  color: white;
+  color: black;
+  padding-left: 20px;
 }
 a:hover {
-  text-decoration-line: line-through;
-  color: #6db3ae;
-}
-h2 {
   color: white;
-  font-size: 32px;
-  font-family: "Comfortaa", cursive;
 }
-p,
-ul {
+
+body {
   font-family: "Poiret One", cursive;
-  color: white;
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
 }
-/* font-family: 'Coda Caption', sans-serif;
+.introText {
+  height: 100vh;
+  background-color: #fbbb00;
+}
+.introText h1 {
+  width: 70%;
+}
+.secondary {
+  height: 100vh;
+  padding-top: 40px;
+  text-align: end;
+  color: #fbbb00;
+  background-color: black;
+}
+.projects {
+  height: 100vh;
+  color: #fbbb00;
+  background-color: black;
+}
+.contactNav {
+  font-size: 50px;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #fbbb00;
+}
+/*
 font-family: 'Poiret One', cursive; */
