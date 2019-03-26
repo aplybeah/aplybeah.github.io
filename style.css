@@ -1,9 +1,10 @@
 * {
   margin: 0;
 }
+p,
 a {
   text-decoration: none;
-  color: black;
+  color: #9b7400;
   padding-left: 20px;
 }
 a:hover {
@@ -13,6 +14,7 @@ a:hover {
 body {
   font-family: "Poiret One", cursive;
   font-size: 50px;
+  background-color: #fbbb00;
   display: flex;
   flex-direction: column;
 }
@@ -26,7 +28,6 @@ body {
 .secondary {
   height: 100vh;
   padding-top: 40px;
-  text-align: end;
   color: #fbbb00;
   background-color: black;
 }
@@ -36,10 +37,12 @@ body {
   background-color: black;
 }
 .contactNav {
+  position: sticky;
+  top: 0;
   font-size: 50px;
   display: flex;
   justify-content: flex-end;
-  background-color: #fbbb00;
+  background-color: #00fbbb00;
 }
 /*
 font-family: 'Poiret One', cursive; */
