@@ -44,6 +44,11 @@ body {
   justify-content: flex-end;
   background-color: #00fbbb00;
 }
+.animated {
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
 /*
 font-family: 'Poiret One', cursive; */
 .cardSection {
@@ -51,6 +56,7 @@ font-family: 'Poiret One', cursive; */
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-auto-rows: minmax(200px, auto);
   grid-gap: 1rem;
+  padding-top: 30px;
 }
 
 .card {
