@@ -10,7 +10,12 @@ a {
 a:hover {
   color: white;
 }
-
+a.title {
+  color: #5d5e5e;
+}
+a.title:hover {
+  color: white;
+}
 body {
   font-family: "Poiret One", cursive;
   font-size: 50px;
@@ -22,8 +27,17 @@ body {
   height: 100vh;
   background-color: #fbbb00;
 }
-.introText h1 {
+.introText h1,
+.secondary h2 {
   width: 70%;
+  margin: 8px;
+}
+p.next-page {
+  animation-delay: none;
+  margin-top: 190px;
+}
+p.first-page {
+  margin-top: 30px;
 }
 .secondary {
   height: 100vh;
@@ -35,6 +49,10 @@ body {
   height: 100vh;
   color: #fbbb00;
   background-color: black;
+}
+.projects h2,
+.cardSection {
+  margin-left: 15px;
 }
 .contactNav {
   position: sticky;
