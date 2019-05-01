@@ -25,6 +25,7 @@ body {
 }
 .introText {
   height: 100vh;
+  width: 100vw;
   background-color: #fbbb00;
 }
 .introText h1,
@@ -34,13 +35,14 @@ body {
 }
 p.next-page {
   animation-delay: none;
-  margin-top: 190px;
+  margin-top: 150px;
 }
 p.first-page {
   margin-top: 30px;
 }
 .secondary {
   height: 100vh;
+  width: 100vw;
   padding-top: 40px;
   color: #fbbb00;
   background-color: black;
@@ -108,3 +110,4 @@ font-family: 'Poiret One', cursive; */
   -ms-flex: 1;
   flex: 1;
 }
+/*look into using webkit and ms*/
