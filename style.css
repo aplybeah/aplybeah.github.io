@@ -41,7 +41,9 @@ body {
     display: none;
   }
   .projects {
-    height: 100px;
+    height: 900px;
+    background-color: black;
+    overflow: scroll;
   }
   .projects h2 {
     font-size: 30px;
