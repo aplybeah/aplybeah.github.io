@@ -30,10 +30,24 @@ body {
   .introText {
     width: 100px;
     height: 100px;
-    font-size: 30px;
+    font-size: 25px;
+  }
+  .secondary {
+    height: 100px;
+    width: 100px;
+    font-size: 25px;
   }
   .mobile {
     display: none;
+  }
+  .projects {
+    height: 100px;
+  }
+  .projects h2 {
+    font-size: 30px;
+  }
+  .cardSection {
+    background-color: black;
   }
 }
 .introText {
